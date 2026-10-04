@@ -1,0 +1,146 @@
+[
+ {
+  "domain": "support",
+  "tier": "crowd",
+  "batch": 50,
+  "calibration_alpha": 0.807,
+  "expected_alpha": 0.81,
+  "fail_rate": 0.058
+ },
+ {
+  "domain": "support",
+  "tier": "crowd",
+  "batch": 100,
+  "calibration_alpha": 0.807,
+  "expected_alpha": 0.81,
+  "fail_rate": 0.016
+ },
+ {
+  "domain": "support",
+  "tier": "crowd",
+  "batch": 200,
+  "calibration_alpha": 0.807,
+  "expected_alpha": 0.81,
+  "fail_rate": 0.001
+ },
+ {
+  "domain": "support",
+  "tier": "trained",
+  "batch": 50,
+  "calibration_alpha": 0.893,
+  "expected_alpha": 0.884,
+  "fail_rate": 0.002
+ },
+ {
+  "domain": "support",
+  "tier": "trained",
+  "batch": 100,
+  "calibration_alpha": 0.893,
+  "expected_alpha": 0.884,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "support",
+  "tier": "trained",
+  "batch": 200,
+  "calibration_alpha": 0.893,
+  "expected_alpha": 0.884,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "support",
+  "tier": "expert",
+  "batch": 50,
+  "calibration_alpha": 0.94,
+  "expected_alpha": 0.96,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "support",
+  "tier": "expert",
+  "batch": 100,
+  "calibration_alpha": 0.94,
+  "expected_alpha": 0.96,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "support",
+  "tier": "expert",
+  "batch": 200,
+  "calibration_alpha": 0.94,
+  "expected_alpha": 0.96,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "finance",
+  "tier": "trained",
+  "batch": 50,
+  "calibration_alpha": 0.8,
+  "expected_alpha": 0.774,
+  "fail_rate": 0.145
+ },
+ {
+  "domain": "finance",
+  "tier": "trained",
+  "batch": 100,
+  "calibration_alpha": 0.8,
+  "expected_alpha": 0.774,
+  "fail_rate": 0.073
+ },
+ {
+  "domain": "finance",
+  "tier": "trained",
+  "batch": 200,
+  "calibration_alpha": 0.8,
+  "expected_alpha": 0.774,
+  "fail_rate": 0.022
+ },
+ {
+  "domain": "finance",
+  "tier": "expert",
+  "batch": 50,
+  "calibration_alpha": 0.96,
+  "expected_alpha": 0.922,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "finance",
+  "tier": "expert",
+  "batch": 100,
+  "calibration_alpha": 0.96,
+  "expected_alpha": 0.922,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "finance",
+  "tier": "expert",
+  "batch": 200,
+  "calibration_alpha": 0.96,
+  "expected_alpha": 0.922,
+  "fail_rate": 0.0
+ },
+ {
+  "domain": "medical",
+  "tier": "expert",
+  "batch": 50,
+  "calibration_alpha": 0.82,
+  "expected_alpha": 0.846,
+  "fail_rate": 0.02
+ },
+ {
+  "domain": "medical",
+  "tier": "expert",
+  "batch": 100,
+  "calibration_alpha": 0.82,
+  "expected_alpha": 0.846,
+  "fail_rate": 0.001
+ },
+ {
+  "domain": "medical",
+  "tier": "expert",
+  "batch": 200,
+  "calibration_alpha": 0.82,
+  "expected_alpha": 0.846,
+  "fail_rate": 0.0
+ }
+]
