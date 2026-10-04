@@ -5,7 +5,7 @@
 <br/>
 
 ![python](https://img.shields.io/badge/python-3.10%2B-2DD4BF?style=for-the-badge&labelColor=0B1220)
-![CI](https://github.com/willy410-hub/SignalGate/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/willy410-hub/signal-gate/actions/workflows/ci.yml/badge.svg)
 ![tests](https://img.shields.io/badge/tests-@@meta|tests@@%20passing-A3E635?style=for-the-badge&labelColor=0B1220)
 ![license](https://img.shields.io/badge/license-MIT-38BDF8?style=for-the-badge&labelColor=0B1220)
 ![runs on](https://img.shields.io/badge/runs%20on-a%20laptop%20CPU-A78BFA?style=for-the-badge&labelColor=0B1220)
@@ -231,7 +231,7 @@ Longer version with reasoning: [docs/DESIGN.md](docs/DESIGN.md).
 ## Run it
 
 ```bash
-git clone https://github.com/willy410-hub/SignalGate && cd SignalGate
+git clone https://github.com/willy410-hub/signal-gate && cd signal-gate
 pip install -e ".[dev,rl,viz]"      # CPU only, no accounts, no API keys
 
 sgate demo                          # a gate report on synthetic scores
