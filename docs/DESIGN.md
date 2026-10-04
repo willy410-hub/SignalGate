@@ -89,4 +89,3 @@ The experiment script reports whatever happens; see the README for the measured 
   meant to be set per task with domain experts, not copied.
 * The shield uses a calibration table measured once on nominal conditions. That is a deliberate,
   realistic weakness, and the held-out family is there to expose it.
-* The CI workflow is included but has not been executed in this environment.

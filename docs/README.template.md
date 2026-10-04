@@ -5,6 +5,7 @@
 <br/>
 
 ![python](https://img.shields.io/badge/python-3.10%2B-2DD4BF?style=for-the-badge&labelColor=0B1220)
+![CI](https://github.com/willy410-hub/SignalGate/actions/workflows/ci.yml/badge.svg)
 ![tests](https://img.shields.io/badge/tests-@@meta|tests@@%20passing-A3E635?style=for-the-badge&labelColor=0B1220)
 ![license](https://img.shields.io/badge/license-MIT-38BDF8?style=for-the-badge&labelColor=0B1220)
 ![runs on](https://img.shields.io/badge/runs%20on-a%20laptop%20CPU-A78BFA?style=for-the-badge&labelColor=0B1220)
@@ -271,6 +272,5 @@ tests/             @@meta|tests@@ tests
 * **Not evidence about production systems.** The retrieval suite is lexical plus a metadata re-ranker; the RL results come from my simulator.
 * **Defaults are defaults.** Alpha 0.7, q 0.05, tolerances and canary steps are demonstration values to be set per task with domain experts.
 * **BH assumes independence or positive dependence.** Heavily overlapping slices break that assumption.
-* **The CI workflow is included but has not been executed yet.**
 
 <div align="center"><sub>MIT licensed · built to be read, run, and argued with</sub></div>
